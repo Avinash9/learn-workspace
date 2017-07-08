@@ -1,0 +1,3 @@
+1.create a simple maven project.
+2.Create a new package in src/main/java
+3.create a new package same name (preferable) in src/test/java
