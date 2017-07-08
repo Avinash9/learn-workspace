@@ -16,7 +16,7 @@ public class App
     	ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
         System.out.println( "::::::::::::::Starting Spring Project::::::::::" );
         
-        Vehicle obj = (Vehicle) context.getBean("vehicle");
+        Vehicle obj = (Vehicle) context.getBean("bike");
         obj.drive();
     }
 }
